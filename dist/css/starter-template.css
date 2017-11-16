@@ -1,0 +1,61 @@
+body {
+  padding-top: 5rem;
+
+  background: linear-gradient(270deg, #feb692, #feb692, #fff6b7);
+  background-size: 1000% 1000%;
+  animation: AnimationName 60s ease infinite;
+}
+
+
+@media screen and (min-width: 768px){
+    .rwd-break { display: none; }
+}
+
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.bg-dark {
+    background-color: rgba(255,255,255,0)!important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-dark .navbar-brand {
+    color: #DFDFDF;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .2875rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-family: 'Open Sans',Arial,Helvetica Neue,sans-serif;
+    font-size: 1.2rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+@media (min-width: 768px)
+_navbar.scss:166
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.25em;
+    height: 1.25em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
