@@ -1,7 +1,7 @@
 body {
   padding-top: 5rem;
 
-  background: linear-gradient(270deg, #feb692, #ffd4b7);
+  background: linear-gradient(270deg, #feb692, #ffe2b7);
   background-size: 400% 400%;
 
   -webkit-animation: AnimationName 30s ease infinite;
